@@ -60,8 +60,13 @@ main {
     margin: 20px;
 }
 
-.intro-list li {
-    text-allign: center;
+div.container {
+    text-align: center;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: left;
 }
 
 footer {
