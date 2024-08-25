@@ -60,11 +60,11 @@ main {
     margin: 20px;
 }
 
-div.container {
+.container {
     text-align: center;
 }
 
-ul.myUL {
+.myul {
     display: inline-block;
     text-align: left;
 }
