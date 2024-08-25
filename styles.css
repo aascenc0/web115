@@ -61,17 +61,17 @@ main {
     padding: 10px 15px; /* Padding around list items */
     margin: 5px 0;      /* Margin between list items */
     background-color: #eafcfc; /* Light blue background for items */
-    border-left: 5px solid #333333; /* Teal left border for items */
+    border-left: 5px solid #333333; /* black left border for items */
     transition: background-color 0.3s; /* Smooth transition for hover */
 }
 
 /* Change background color on hover */
 .footer-list li:hover {
-    background-color: #00BFFF; /* Slightly darker blue on hover */
+    background-color: #00BFFF; /* Slightly carolina blue on hover */
 }
 
 footer {
-    background-color: #333;
+    background-color: #C0C0C0;
     color: white;
     text-align: center;
     padding: 0px;
@@ -94,11 +94,11 @@ footer {
     padding: 10px 15px; /* Padding around list items */
     margin: 5px 0;      /* Margin between list items */
     background-color: #eafcfc; /* Light blue background for items */
-    border-left: 5px solid #333333; /* Teal left border for items */
+    border-left: 5px solid #333333; /* black left border for items */
     transition: background-color 0.3s; /* Smooth transition for hover */
 }
 
 /* Change background color on hover */
 .nav-list li:hover {
-    background-color: #00BFFF; /* Slightly darker blue on hover */
+    background-color: #00BFFF; /* Slightly carolina blue on hover */
 }
