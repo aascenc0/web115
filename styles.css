@@ -12,6 +12,31 @@ header {
     text-align: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paw-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff; /* White text for the title */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for the dog bar */
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
 footer {
     background-color: #333;
     color: white;
