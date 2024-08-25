@@ -20,6 +20,7 @@ body {
     background-color: #eafcfc; /* Light blue background for items */
     border-left: 5px solid #333333; /* Teal left border for items */
     transition: background-color 0.3s; /* Smooth transition for hover */
+    text-align: center;
 }
 
 /* Change background color on hover */
