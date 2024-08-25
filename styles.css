@@ -48,7 +48,7 @@ main {
 }
 
 
-.footer-list {
+.nav-list {
     list-style-type: none; /* Remove default bullet points */
     padding: 0;           /* Remove default padding */
     margin: 20px;        /* Add margin around the list */
@@ -57,7 +57,7 @@ main {
     border-radius: 5px;    /* Rounded corners */
 }
 
-.footer-list li {
+.nav-list li {
     padding: 10px 15px; /* Padding around list items */
     margin: 5px 0;      /* Margin between list items */
     background-color: #eafcfc; /* Light blue background for items */
@@ -66,7 +66,7 @@ main {
 }
 
 /* Change background color on hover */
-.footer-list li:hover {
+.nav-list li:hover {
     background-color: #00BFFF; /* Slightly carolina blue on hover */
 }
 
