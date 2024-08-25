@@ -14,7 +14,7 @@ body {
     border-radius: 5px;    /* Rounded corners */
 }
 
-.navt-list li {
+.nav-list li {
     padding: 10px 15px; /* Padding around list items */
     margin: 5px 0;      /* Margin between list items */
     background-color: #eafcfc; /* Light blue background for items */
@@ -48,6 +48,7 @@ h1 {
     font-size: 36px;
     color: #fff; /* White text for the title */
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for the dog bar */
+    text-allign: center;
 }
 
 h2 {
