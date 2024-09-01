@@ -1,0 +1,261 @@
+// 1 Addition
+let sum = 5 + 10; // 15
+console.log(sum);
+
+// 2 Subtraction
+let difference = 10 - 5; // 5
+console.log(difference);
+
+// 3 Multiplication
+let product = 4 * 5; // 20
+console.log(product);
+
+// 4 Division
+let quotient = 20 / 4; // 5
+console.log(quotient);
+
+// 5 Modulus
+let remainder = 25 % 6; // 1
+console.log(remainder);
+
+// 6 String Concatenation
+let greeting = "Hello" + " " + "World!"; // "Hello World!"
+console.log(greeting);
+
+// 7 String Length
+let length = greeting.length; // 12
+console.log(length);
+
+// 8 String Slice
+let sliced = greeting.slice(0, 5); // "Hello"
+console.log(sliced);
+
+// 9 String Uppercase
+let upperCase = greeting.toUpperCase(); // "HELLO WORLD!"
+console.log(upperCase);
+
+// 10 String Lowercase
+let lowerCase = greeting.toLowerCase(); // "hello world!"
+console.log(lowerCase);
+
+// 11 Variations in variable declarations
+var age = 25; // Using var
+let name = "John"; // Using let
+const PI = 3.14; // Using const
+console.log(age, name, PI);
+
+// 12 Create an array
+let fruits = ["apple", "banana", "cherry"]; 
+console.log(fruits); // ["apple", "banana", "cherry"]
+
+// 13 Access array element
+let firstFruit = fruits[0]; // "apple"
+console.log(firstFruit);
+
+// 14 Add element to array
+fruits.push("date");
+console.log(fruits); // ["apple", "banana", "cherry", "date"]
+
+// 15 Remove last element
+fruits.pop();
+console.log(fruits); // ["apple", "banana", "cherry"]
+
+// 16 Simple if statement
+if (age >= 18) {
+    console.log("Adult"); // "Adult"
+} else {
+    console.log("Minor");
+}
+
+// 17 Using ternary operator
+let status = (age >= 18) ? "Adult" : "Minor"; // "Adult"
+console.log(status);
+
+// 18 For loop
+for (let i = 0; i < 5; i++) {
+    console.log(i); // 0, 1, 2, 3, 4
+}
+
+// 19 While loop
+let counter = 0;
+while (counter < 3) {
+    console.log(counter); // 0, 1, 2
+    counter++;
+}
+
+// 20 Object Declaration
+let person = {
+    name: "Alice",
+    age: 30,
+    job: "Engineer"
+};
+console.log(person); // { name: "Alice", age: 30, job: "Engineer" }
+
+// 21 Accessing object properties
+console.log(person.name); // "Alice"
+console.log(person['age']); // 30
+
+// 22 Adding a property
+person.city = "New York";
+console.log(person); // { name: "Alice", age: 30, job: "Engineer", city: "New York" }
+
+// 23 Declare a variable and assign a string
+let greeting = "Hello, World!";
+console.log(greeting);  // Output: Hello, World!
+
+// 24 Declare multiple variables
+let a = 1, b = 2, c = 3;
+console.log(a, b, c);  // Output: 1 2 3
+
+// 25 Concatenating Strings
+let firstName = "John";
+let lastName = "Doe";
+let fullName = firstName + " " + lastName;
+console.log(fullName);  // Output: John Doe
+
+// 26 Create an object
+let person = {
+    name: “John,
+    age: 25
+};
+console.log(person.name);  // Output: John
+
+// 27
+function greet() {
+    return "Hello!";
+}
+console.log(greet());  // Output: Hello!
+
+// 28 simple function declaration
+function add(x, y) {
+    return x + y;
+}
+console.log(add(2, 3));  // Output: 5
+
+// 29
+function multiply(x, y = 1) {
+    return x * y;
+}
+console.log(multiply(5));  // Output: 5
+
+// 30
+let sentence = "Hello, how are you?";
+let words = sentence.split(" ");
+console.log(words);  // Output: ["Hello,", "how", "are", "you?"]
+
+// 31
+let wrongSpacing = "Hello" +   + "World";  // Syntax Error
+
+// 32
+let scores = [10, 20, 30];
+let [first, second] = scores;
+console.log(first, second);  // Output: 10 20
+
+// 33 Basic if Statement
+let score = 85;
+if (score >= 60) {
+    console.log("Passed");  // Output: Passed
+}
+
+// 34 switch statement
+let day = 3;
+switch(day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");  // Output: Wednesday
+        break;
+    default:
+        console.log("Another day");
+}
+
+// 35 Fix the while loop to include 5
+let k = 1;
+while (k <= 5) {
+    console.log(k);  // Output: 1 2 3 4 5
+    k++;
+}
+
+// 36 Division by zero
+let x = 10;
+let y = 0;
+console.log(x / y); // Output: Infinity
+
+// 37 fixed division by zero
+y = 2; // Fixing the zero division
+console.log(x / y); // Output: 5
+
+// 38 Array declaration
+let fruits = ["apple", "banana", "cherry"];
+console.log(fruits[1]); // Output: banana
+
+// 39 Incorrect object access
+// console.log(person.gender); // Output: undefined
+person.gender = "female"; // Fix: Add gender to the object
+console.log(person.gender); // Output: female
+
+// 40 Looping through array
+let numbers = [1, 2, 3];
+numbers.forEach(num => console.log(num)); 
+// Output: 
+// 1
+// 2
+// 3
+
+// 41 Function with undefined return
+// function greet() { console.log("Hello"); } 
+// console.log(greet()); // Output: undefined
+function greet() { return "Hello"; } 
+console.log(greet()); // Output: Hello
+
+// 42 check if array includes value
+let nums = [1, 2, 3];
+console.log(nums.includes(2)); // Output: true
+
+// 43 higher order function
+const multiply = (num) => num * 2;
+console.log(multiply(4)); // Output: 8
+
+// 44 incorrect variable usage
+let y = 5;
+// console.log(z); // Output: ReferenceError
+let z = 10; 
+console.log(z); // Output: 10
+
+// 45 prose syntax
+let promise = new Promise((resolve, reject) => {
+    resolve("Promise resolved!");
+});
+promise.then((message) => console.log(message)); // Output: Promise resolved!
+
+// 46 object method
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    displayInfo() {
+        return `${this.brand} ${this.model}`;
+    }
+};
+console.log(car.displayInfo()); // Output: Toyota Corolla
+
+// 47 modify object property
+car.model = "Camry";
+console.log(car.displayInfo()); // Output: Toyota Camry
+
+// 48 array mapping
+let doubled = [1, 2, 3].map(num => num * 2);
+console.log(doubled); // Output: [2, 4, 6]
+
+// 49 using find method
+let found = [5, 10, 15].find(num => num > 10);
+console.log(found); // Output: 15
+
+// 50 function expressions
+const divide = function(x, y) {
+    return x / y;
+};
+console.log(divide(10, 2)); // Output: 5
