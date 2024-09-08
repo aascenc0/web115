@@ -92,6 +92,7 @@ a {
 }
 
 .links-nav li a {
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 20px;
