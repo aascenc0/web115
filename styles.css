@@ -87,7 +87,7 @@ main {
 .links-nav li a {
     display: inline-block;
     color: black;
-    font-weight_ bold;
+    font-weight: bold;
     text-align: center;
     padding: 20px;
     text-decorations: none;
