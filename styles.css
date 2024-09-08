@@ -87,10 +87,6 @@ a {
     background-color: #eafcfc;
 }
 
-.links-nav li {
-    display: inline-block;
-}
-
 .links-nav li a {
     display: inline-block;
     color: black;
