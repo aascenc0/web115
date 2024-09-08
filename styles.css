@@ -72,13 +72,17 @@ main {
 }
 
 a {
-    color:C0C0C0;
+    color:silver;
     font-weight: bold;
     text-decoration: none;
 }
 
-a:visited {
-    color: deepsilver;
+a.visited {
+    color: deeppink;
+}
+
+a.inlined {
+    display: inline;
 }
 
 footer {
