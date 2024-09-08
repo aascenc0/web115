@@ -39,6 +39,10 @@ main {
     margin: 20px;
 }
 
+p {
+    text-align: center;
+    line-height: 100px;
+}
 
 .container {
     text-align: center;
