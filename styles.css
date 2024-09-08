@@ -73,12 +73,12 @@ main {
 }
 
 a {
-    color:silver;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
-a.visited {
+.visited {
     color: deeppink;
 }
 
