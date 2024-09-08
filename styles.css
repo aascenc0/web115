@@ -37,11 +37,8 @@ h2 {
 main {
     text-align: center;
     margin: 20px;
-}
-
-p {
-    text-align: center;
-    line-height: 100px;
+    width: 300px;
+    height: 100px;
 }
 
 .container {
@@ -86,7 +83,7 @@ footer {
     color: black;
     text-align: center;
     padding: 0px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
