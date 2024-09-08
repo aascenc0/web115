@@ -40,9 +40,9 @@ main {
 
 
 .nav-list {
-    list-style-type: none; /* Remove default bullet points */
+    display: inline; /* Remove default bullet points */
     padding: 0;           /* Remove default padding */
-    margin: 5px;        /* Add margin around the list */
+    margin: 20px;        /* Add margin around the list */
     background-color: #f9f9f9; /* Light grey background */
     border: 1px solid #ccc; /* Border around the list */
     border-radius: 5px;    /* Rounded corners */
