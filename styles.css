@@ -71,13 +71,6 @@ main {
     text-align: left;
 }
 
-a {
-    display: inline;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 
 .links-nav {
     list-style-type: none;
@@ -94,6 +87,7 @@ a {
 .links-nav li a {
     display: inline-block;
     color: black;
+    font-weight_ bold;
     text-align: center;
     padding: 20px;
     text-decorations: none;
