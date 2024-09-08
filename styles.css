@@ -38,11 +38,6 @@ main {
     margin: 20px;
 }
 
-img.intro-img {
-    display: block;
-    position: absolute;
-    margin: 0 auto 0 auto;
-}
 
 .nav-list {
     list-style-type: none; /* Remove default bullet points */
