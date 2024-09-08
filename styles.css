@@ -40,9 +40,9 @@ main {
 
 
 .nav-list {
-    display: inline; /* Remove default bullet points */
+    list-style-type: none; /* Remove default bullet points */
     padding: 0;           /* Remove default padding */
-    margin: 20px;        /* Add margin around the list */
+    margin: 5px;        /* Add margin around the list */
     background-color: #f9f9f9; /* Light grey background */
     border: 1px solid #ccc; /* Border around the list */
     border-radius: 5px;    /* Rounded corners */
@@ -55,7 +55,6 @@ main {
     background-color: #eafcfc; /* Light blue background for items */
     border-left: 5px solid #333333; /* black left border for items */
     transition: background-color 0.3s; /* Smooth transition for hover */
-    display: inliine;
 }
 
 /* Change background color on hover */
@@ -73,6 +72,7 @@ main {
 }
 
 a {
+    display: inline;
     color: black;
     font-weight: bold;
     text-decoration: none;
