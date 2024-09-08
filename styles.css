@@ -38,6 +38,13 @@ main {
     margin: 20px;
 }
 
+img {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin: -125px 00 -125px;
+}
+
 .nav-list {
     list-style-type: none; /* Remove default bullet points */
     padding: 0;           /* Remove default padding */
