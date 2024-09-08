@@ -40,6 +40,10 @@ main {
     padding: 20px;
 }
 
+a {
+    color: #00BFFF;
+}
+
 .container {
     text-align: center;
 }
