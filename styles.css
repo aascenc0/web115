@@ -39,9 +39,8 @@ h2 {
 
 main {
     text-align: center;
-    margin: 0px;
+    margin: 0 auto;
     font-size: 15;
-    display: center;
 }
 
 .floating-box {
