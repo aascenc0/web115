@@ -47,6 +47,7 @@ main {
     border: 1px solid #ccc; /* Border around the list */
     border-radius: 5px;    /* Rounded corners */
     text-align: center;
+    display: inline;
 }
 
 .nav-list li {
@@ -79,10 +80,6 @@ a {
 
 a.visited {
     color: deeppink;
-}
-
-a.inlined {
-    display: inline;
 }
 
 footer {
