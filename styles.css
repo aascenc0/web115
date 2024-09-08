@@ -42,7 +42,7 @@ main {
     text-align: center;
     margin: 0px;
     font-size: 15;
-    display: flex;
+    display: center;
 }
 
 .floating-box {
