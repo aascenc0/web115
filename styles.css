@@ -76,10 +76,7 @@ a {
     color: black;
     font-weight: bold;
     text-decoration: none;
-}
-
-.visited {
-    color: deeppink;
+    display: inline;
 }
 
 footer {
