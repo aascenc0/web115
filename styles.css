@@ -71,6 +71,10 @@ main {
     text-align: left;
 }
 
+a {
+    color:C0C0C0;
+}
+
 footer {
     background-color: #C0C0C0;
     color: black;
