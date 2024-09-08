@@ -73,6 +73,12 @@ main {
 
 a {
     color:C0C0C0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: deeppink;
 }
 
 footer {
