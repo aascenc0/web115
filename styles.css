@@ -40,6 +40,7 @@ main {
 
 
 .nav-list {
+    display: inline;
     list-style-type: none; /* Remove default bullet points */
     padding: 0;           /* Remove default padding */
     margin: 20px;        /* Add margin around the list */
@@ -47,7 +48,6 @@ main {
     border: 1px solid #ccc; /* Border around the list */
     border-radius: 5px;    /* Rounded corners */
     text-align: center;
-    display: inline;
 }
 
 .nav-list li {
