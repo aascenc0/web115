@@ -87,3 +87,27 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.links-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eafcfc;
+}
+
+.links-nav li {
+    float: center;
+}
+
+.links-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px:
+    text-decorations: none;
+}
+
+.links-nav li a:hover {
+    background-color: #00BFFF;
+}
