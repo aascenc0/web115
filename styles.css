@@ -4,6 +4,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 header {
     background-color: #00BFFF;
@@ -38,9 +41,6 @@ main {
     text-align: center;
     margin: 0px;
     font-size: 15;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .floating-box {
