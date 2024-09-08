@@ -46,7 +46,7 @@ main {
     background-color: #f9f9f9; /* Light grey background */
     border: 1px solid #ccc; /* Border around the list */
     border-radius: 5px;    /* Rounded corners */
-    text-align: center;
+    text-align: auto;
 }
 
 .nav-list li {
