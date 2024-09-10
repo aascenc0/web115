@@ -27,7 +27,7 @@ paw-icon {
 h1 {
     font-size: 36px;
     color: #fff; /* White text for the title */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for the dog bar */
+    font-family: Arial, sans-serif; /* Fun font for the dog bar */
     text-align: center;
 }
 
