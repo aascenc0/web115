@@ -18,6 +18,4 @@ document.getElementById("user-form").addEventListener("submit", function(event) 
         outputHTML += `${i}. Happy Hour Drinks<br>`;
     }
     
-    document.getElementById("output").innerHTML = outputHTML;
-
 });
