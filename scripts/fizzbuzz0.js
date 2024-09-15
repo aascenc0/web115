@@ -20,15 +20,10 @@ document.getElementById("user-form").onsubmit = function() {
     // Update the greeting in the heading
     document.getElementById("greeting").textContent = fullGreeting;
     
-    // Store values in local storage
-    localStorage.setItem("first_name", firstName);
-    localStorage.setItem("middle_initial", middleInitial);
-    localStorage.setItem("last_name", lastName);
-    
     // Generate and display themed phrases
     let outputHTML = '';
     for (let i = 1; i <= 125; i++) {
-        outputHTML += `${i}. Happy Hour<br>`;
+        outputHTML += `${i}. Happy Hour Drinks<br>`;
     }
     
     document.getElementById("output").innerHTML = outputHTML;
