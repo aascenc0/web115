@@ -25,9 +25,10 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     for (let i = 1; i <= numberInput; i++) {
         
         if (i % 2 === 0) {
-            gameOutput += "Paw's &amp; Pints Pub - ${i} - This number is Even<br>";
-        } else {
-            gameOutput += "Paw's &amp; Pints Pub - ${i} - This number is Odd<br>";
+            gameOutput += "Paw's &amp; Pints Pub - "${i}" - This number is Even<br>";
+        } 
+        else {
+            gameOutput += "Paw's &amp; Pints Pub - "${i}" - This number is Odd<br>";
         }
     }
 
