@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 };
 
-document.getElementById("user-form").onsubmit = function() {
+document.getElementById("name-form").onsubmit = function() {
     // Get the values from the input fields
     const firstName = document.getElementById("first_name").value;
     const middleInitial = document.getElementById("middle_initial").value;
