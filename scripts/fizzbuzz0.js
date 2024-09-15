@@ -8,7 +8,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const lastName = document.getElementById("last_name").value;
 
     // Create full name
-    let fullName = `${firstName} ${middleInitial ? middleInitial + '.' : ''} ${lastName}`.trim();
+    let fullName = "${firstName} ${middleInitial ? middleInitial + '.' : ''} ${lastName}".trim();
 
     
     // Prompt the user to enter a number between 1 and 125
@@ -25,9 +25,9 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     for (let i = 1; i <= numberInput; i++) {
         
         if (i % 2 === 0) {
-            gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Even<br>`;
+            gameOutput += "Paw's &amp; Pints Pub - ${i} - This number is Even<br>";
         } else {
-            gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Odd<br>`;
+            gameOutput += "Paw's &amp; Pints Pub - ${i} - This number is Odd<br>";
         }
     }
 
