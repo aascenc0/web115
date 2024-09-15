@@ -7,8 +7,12 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const middleInitial = document.getElementById("middle_initial").value;
     const lastName = document.getElementById("last_name").value;
 
+    // Create full name
+    let fullName = `${firstName} ${middleInitial ? middleInitial + '.' : ''} ${lastName}`.trim();
+
+    
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = parseInt(window.prompt("How high do you want to count?: "));
+    let numberInput = parseInt(window.prompt("How high do you want to count ${fullName}?: "));
 
     
     // Validate the number input
@@ -19,12 +23,11 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     // game logic for the number
     let gameOutput = "";
     for (let i = 1; i <= numberInput; i++) {
-        const line = document.createElement("a");
         
         if (i % 2 === 0) {
-            line.gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Even<br>`;
+            gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Even<br>`;
         } else {
-            line.gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Odd<br>`;
+            gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Odd<br>`;
         }
     }
 
