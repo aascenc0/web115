@@ -5,28 +5,35 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const firstName = document.getElementById("first_name").value;
     const middleInitial = document.getElementById("middle_initial").value;
     const lastName = document.getElementById("last_name").value;
-    const numberInput = parseInt(document.getElementById("number_input").value);
+
+    // Prompt the user to enter a number between 1 and 125
+    let numberInput = parseInt(window.prompt("Please enter a number between 1 and 125:"));
     
+    // Validate the number input
+    while (numberInput < 1 || numberInput > 125 || isNaN(numberInput)) {
+        numberInput = parseInt(window.prompt("Invalid input. Please enter a number between 1 and 125:"));
+    }
+
     // Create full name
-    const fullName = "${firstName} ${middleInitial ? middleInitial + "."} ${lastName}".trim();
+    const fullName = `${firstName} ${middleInitial ? middleInitial + '.' : ''} ${lastName}`.trim();
     
     // Update the welcome message
-    document.getElementById("welcome-message").innerText = "Welcome to Paws &amp; Pints Pub! ${fullName}!";
+    document.getElementById("welcome-message").innerText = `Welcome to Paws &amp; Pints Pub! ${fullName}!`;
     
-    // Game logic for the number
+    // game logic for the number
     let gameOutput = "";
     for (let i = 1; i <= numberInput; i++) {
         if (i % 2 === 0) {
-            fizzBuzzOutput += "${i} - even<br>";
+            gameOutput += `${i} - even<br>`;
         } else {
-            fizzBuzzOutput += "${i} - odd<br>";
+            gameOutput += `${i} - odd<br>`;
         }
     }
     
     // Prepare the additional lines of output related to the theme
     let themeOutput = "";
     for (let i = 1; i <= 125; i++) {
-        themeOutput += "${i}. Happy Hour Drinks!<br>";
+        themeOutput += `${i}. Happy Hour Drinks!<br>`;
     }
 
     // Display results
