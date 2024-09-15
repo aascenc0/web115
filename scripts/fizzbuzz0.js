@@ -1,5 +1,4 @@
 document.getElementById("user-form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent the default form submission
 
     // Get the values from the input fields
     const firstName = document.getElementById("first_name").value;
@@ -18,4 +17,5 @@ document.getElementById("user-form").addEventListener("submit", function(event) 
         outputHTML += `${i}. Happy Hour Drinks<br>`;
     }
     
+    document.getElementById("output").innerHTML = outputHTML;
 });
