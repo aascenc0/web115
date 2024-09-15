@@ -14,9 +14,6 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         numberInput = parseInt(window.prompt("Invalid input. Please enter a number between 1 and 125:"));
     }
 
-    // Create full name
-    const fullName = `${firstName} ${middleInitial ? middleInitial + "."} ${lastName}`.trim;
-    
     // Update the welcome message
     document.getElementById("welcome-message").innerText = "Welcome to Paws &amp; Pints Pub! ${fullName}!";
     
