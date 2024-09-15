@@ -2,10 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("name-form");
     const greeting = document.getElementById("greeting");
     const outputContainer = document.getElementById("output-container");
-
-    if (savedFirstName && savedLastName) {
-        document.getElementById("greeting").textContent = `Welcome to Paws &amp; Pints Pub! ${savedFirstName} ${savedMiddleInitial ? savedMiddleInitial + '. ' : ''}${savedLastName}`;
-    }
 };
 
 document.getElementById("name-form").onsubmit = function() {
