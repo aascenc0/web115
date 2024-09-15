@@ -26,4 +26,4 @@ document.getElementById("name-form").onsubmit = function() {
     }
     
     document.getElementById("output").innerHTML = outputHTML;
-};
+}
