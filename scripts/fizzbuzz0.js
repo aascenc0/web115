@@ -23,7 +23,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const fullName = "${firstName} ${middleInitial ? middleInitial + "."} ${lastName}".trim();
     
     // Update the welcome message
-    document.getElementById("welcome-message").innerText = `Welcome to Paws &amp; Pints Pub! ${fullName}!`;
+    document.getElementById("welcome-message").innerText = "Welcome to Paws &amp; Pints Pub! ${fullName}!";
     
     // game logic for the number
     let gameOutput = "";
