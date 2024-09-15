@@ -29,9 +29,9 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     let gameOutput = "";
     for (let i = 1; i <= numberInput; i++) {
         if (i % 2 === 0) {
-            gameOutput += `${i} - even<br>`;
+            gameOutput += "${i} - even<br>";
         } else {
-            gameOutput += `${i} - odd<br>`;
+            gameOutput += `"{i} - odd<br>";
         }
     }
     
