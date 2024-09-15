@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () 
+document.addEventListener("DOMContentLoaded", function () {
 document.getElementById("name-form").addEventListener("submit", function(event) {
     event.preventDefault();
     
@@ -33,4 +33,5 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
 
     // Display results
     document.getElementById("output").innerHTML = gameOutput + "<br>" + themeOutput;
+});
 });
