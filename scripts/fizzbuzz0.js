@@ -8,7 +8,8 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const lastName = document.getElementById("last_name").value;
 
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = parseInt(window.prompt("How high do you want to count, $(firstName)?: "));
+    let numberInput = parseInt(window.prompt("How high do you want to count?: "));
+
     
     // Validate the number input
     while (numberInput < 1 || numberInput > 125 || isNaN(numberInput)) {
@@ -18,10 +19,12 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     // game logic for the number
     let gameOutput = "";
     for (let i = 1; i <= numberInput; i++) {
+        const line = document.createElement("a");
+        
         if (i % 2 === 0) {
-            gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Even<br>`;
+            line.gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Even<br>`;
         } else {
-            gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Odd<br>`;
+            line.gameOutput += `Paw's &amp; Pints Pub - ${i} - This number is Odd<br>`;
         }
     }
 
