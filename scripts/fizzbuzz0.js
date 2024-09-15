@@ -31,14 +31,14 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         if (i % 2 === 0) {
             gameOutput += "${i} - even<br>";
         } else {
-            gameOutput += `"{i} - odd<br>";
+            gameOutput += "{i} - odd<br>";
         }
     }
     
     // Prepare the additional lines of output related to the theme
     let themeOutput = "";
     for (let i = 1; i <= 125; i++) {
-        themeOutput += `${i}. Happy Hour Drinks!<br>`;
+        themeOutput += "${i}. Happy Hour Drinks!<br>";
     }
 
     // Display results
