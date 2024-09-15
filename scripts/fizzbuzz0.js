@@ -13,9 +13,6 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     while (numberInput < 1 || numberInput > 125 || isNaN(numberInput)) {
         numberInput = parseInt(window.prompt("Invalid input. Please enter a number between 1 and 125:"));
     }
-
-    // Update the welcome message
-    document.getElementById("welcome-message").innerText = "Welcome to Paws &amp; Pints Pub! ${fullName}!";
     
     // game logic for the number
     let gameOutput = "";
