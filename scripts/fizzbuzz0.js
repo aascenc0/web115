@@ -1,26 +1,34 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("name-form");
-    const greeting = document.getElementById("greeting");
-    const outputContainer = document.getElementById("output-container");
-}
-
-document.getElementById("name-form").onsubmit = function() {
-    // Get the values from the input fields
-    const firstName = document.getElementById("first_name").value;
-    const middleInitial = document.getElementById("middle_initial").value;
-    const lastName = document.getElementById("last_name").value;
-
-    // Create the full name greeting
-    const fullGreeting = `Welcome to Pints & Paws Pub! ${firstName} ${middleInitial ? middleInitial + '. ' : ''}${lastName}`;
+document.getElementById('name-form').addEventListener('submit', function(event) {
+    event.preventDefault();
     
-    // Update the greeting in the heading
-    document.getElementById("greeting").textContent = fullGreeting;
+    // Collecting user inputs
+    const firstName = document.getElementById('first_name').value;
+    const middleInitial = document.getElementById('middle_initial').value;
+    const lastName = document.getElementById('last_name').value;
+    const numberInput = parseInt(document.getElementById('number_input').value);
     
-    // Generate and display themed phrases
-    let outputHTML = '';
-    for (let i = 1; i <= 125; i++) {
-        outputHTML += `${i}. Happy Hour Drinks<br>`;
+    // Create full name
+    const fullName = `${firstName} ${middleInitial ? middleInitial + '.' : ''} ${lastName}`.trim();
+    
+    // Update the welcome message
+    document.getElementById('welcome-message').innerText = `Welcome to Paws &amp; Pints Pub! ${fullName}!`;
+    
+    // FizzBuzz logic for the number
+    let fizzBuzzOutput = '';
+    for (let i = 1; i <= numberInput; i++) {
+        if (i % 2 === 0) {
+            fizzBuzzOutput += `${i} - even<br>`;
+        } else {
+            fizzBuzzOutput += `${i} - odd<br>`;
+        }
     }
     
-    document.getElementById("output").innerHTML = outputHTML;
-}
+    // Prepare the additional lines of output related to the theme
+    let themeOutput = '';
+    for (let i = 1; i <= 125; i++) {
+        themeOutput += `${i}. Happy Hour Drinks!<br>`;
+    }
+
+    // Display results
+    document.getElementById('output').innerHTML = fizzBuzzOutput + '<br>' + themeOutput;
+});
