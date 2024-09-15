@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function () 
 document.getElementById("name-form").addEventListener("submit", function(event) {
     event.preventDefault();
     
