@@ -20,7 +20,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     }
 
     // Create full name
-    const fullName = "${firstName} ${middleInitial ? middleInitial + "."} ${lastName}".trim();
+    const fullName = "${firstName} ${middleInitial ? middleInitial + "."}" "${lastName}".trim();
     
     // Update the welcome message
     document.getElementById("welcome-message").innerText = `Welcome to Paws &amp; Pints Pub! ${fullName}!`;
