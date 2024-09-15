@@ -27,6 +27,4 @@ document.getElementById("name-form").onsubmit = function() {
     }
     
     document.getElementById("output").innerHTML = outputHTML;
-
-    return true; // Allow the form to submit and reload the page
 };
