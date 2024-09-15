@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("name-form");
     const greeting = document.getElementById("greeting");
     const outputContainer = document.getElementById("output-container");
-};
+}
 
 document.getElementById("name-form").onsubmit = function() {
     // Get the values from the input fields
@@ -23,4 +23,4 @@ document.getElementById("name-form").onsubmit = function() {
     }
     
     document.getElementById("output").innerHTML = outputHTML;
-};
+}
