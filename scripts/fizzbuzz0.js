@@ -8,7 +8,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const lastName = document.getElementById("last_name").value;
 
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = parseInt(window.prompt("How high do you want to count, $("first_name")?: "));
+    let numberInput = parseInt(window.prompt("How high do you want to count, $("firstName")?: "));
     
     // Validate the number input
     while (numberInput < 1 || numberInput > 125 || isNaN(numberInput)) {
