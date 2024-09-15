@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (savedFirstName && savedLastName) {
         document.getElementById("greeting").textContent = `Welcome to Paws &amp; Pints Pub! ${savedFirstName} ${savedMiddleInitial ? savedMiddleInitial + '. ' : ''}${savedLastName}`;
     }
-};
 
 document.getElementById("name-form").onsubmit = function() {
     // Get the values from the input fields
