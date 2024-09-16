@@ -22,7 +22,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         numberInput = prompt("Invalid input. Please enter a number between 1 and 125:");
     }
     
-    // game logic for the number
+    // Logic for the number input
     let numberOutput = "";
     
     for (let i = 1; i <= numberInput; i++) {
