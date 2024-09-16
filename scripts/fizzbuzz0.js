@@ -11,7 +11,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const fullName = `${firstName} ${middleInitial ? middleInitial + "." : ""} ${lastName}`;   
     
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = prompt(`How high do you want to count, ${fullName}. ? `);
+    let numberInput = prompt(`How high do you want to count, ${fullName} ? `);
 
     
     // Validate the number input
