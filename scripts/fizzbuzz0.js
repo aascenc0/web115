@@ -8,11 +8,11 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const lastName = document.getElementById("last_name").value;
 
     // Create full name
-    let fullName = "${firstName} ${middleInitial ? middleInitial + '.' : ''} ${lastName}".trim();
+    let fullName = (firstName) + (middleInitial ? middleInitial + '.') + (lastName).trim();
 
     
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = parseInt(window.prompt("How high do you want to count ${fullName}?: "));
+    let numberInput = parseInt(window.prompt("How high do you want to count ? "));
 
     
     // Validate the number input
@@ -21,18 +21,18 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     }
     
     // game logic for the number
-    let gameOutput = "";
+    let numberOutput = "";
     for (let i = 1; i <= numberInput; i++) {
         
         if (i % 2 === 0) {
-            gameOutput += "Paw's &amp; Pints Pub - "${i}" - This number is Even<br>";
+            numberOutput += "Paw's & Pints Pub - ${i} - This number is Even<br>";
         } 
         else {
-            gameOutput += "Paw's &amp; Pints Pub - "${i}" - This number is Odd<br>";
+            numberOutput += "Paw's & Pints Pub - ${i} - This number is Odd<br>";
         }
     }
 
     // Display results
-    document.getElementById("output").innerHTML = gameOutput + "<br>" + themeOutput;
+    document.getElementById("output").innerHTML = numberOutput
 });
 });
