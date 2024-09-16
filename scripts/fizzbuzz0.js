@@ -9,7 +9,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
 
     
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = prompt("How high do you want to count ? "));
+    let numberInput = prompt("How high do you want to count ? ");
 
     
     // Validate the number input
