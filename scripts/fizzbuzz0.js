@@ -7,9 +7,11 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const middleInitial = document.getElementById("middle-initial").value;
     const lastName = document.getElementById("last-name").value;
 
+    // Create full name
+    const fullName = `${firstName} ${middleInitial ? middleInitial + '.' : ''} ${lastName}`;   
     
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = prompt("How high do you want to count ? ");
+    let numberInput = prompt(`How high do you want to count, ${fullName}. ? `);
 
     
     // Validate the number input
@@ -23,9 +25,9 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     for (let i = 1; i <= numberInput; i++) {
         
         if (i % 2 === 0) {
-            numberOutput += "${i}. - This number is Even<br>";
+            numberOutput += `${i}. - Happy Hour Drinks - This number is Even<br>`;
         } else {
-            numberOutput += `${i}. - This number is Odd<br>`;
+            numberOutput += `${i}. - Happy Hour Drinks - This number is Odd<br>`;
         }
     }
 
