@@ -22,9 +22,9 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     for (let i = 1; i <= numberInput; i++) {
         
         if (i % 2 === 0) {
-            numberOutput += "Paw's & Pints Pub - ${i} - This number is Even<br>";
+            numberOutput += "Paw's & Pints Pub - ${i}. - This number is Even<br>";
         } else {
-            numberOutput += "Paw's & Pints Pub - ${i} - This number is Odd<br>";
+            numberOutput += "Paw's & Pints Pub - ${i}. - This number is Odd<br>";
         }
     }
 
