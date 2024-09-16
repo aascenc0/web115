@@ -14,8 +14,10 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     
     // Validate the number input
     while (numberInput < 1 || numberInput > 125 || isNaN(numberInput)) {
-        numberInput = parseInt(window.prompt("Invalid input. Please enter a number between 1 and 125:"));
+        numberInput = prompt("Invalid input. Please enter a number between 1 and 125:");
     }
+
+    numberOutput = parseInt(numberOutput)
     
     // game logic for the number
     let numberOutput = "";
