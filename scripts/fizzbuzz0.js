@@ -8,7 +8,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const lastName = document.getElementById("last-name").value;
 
     // Create full name
-    const fullName = `${firstName} ${middleInitial ? middleInitial + "." : ""} ${lastName}`;
+    const fullName = `${firstName} ${middleInitial ? middleInitial + "." : ""} ${lastName}`.trim();
 
     // Update the welcome message
     document.getElementById("welcome-message").innerText = `Welcome to Paws & Pints Pub, ${fullName}!`;
