@@ -19,12 +19,13 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     
     // game logic for the number
     let numberOutput = "";
+    
     for (let i = 1; i <= numberInput; i++) {
         
         if (i % 2 === 0) {
             numberOutput += "${i}. - This number is Even<br>";
         } else {
-            numberOutput += "${i}. - This number is Odd<br>";
+            numberOutput += `${i}. - This number is Odd<br>`;
         }
     }
 
