@@ -3,9 +3,9 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     event.preventDefault();
     
     // Collecting user inputs
-    const firstName = document.getElementById("first_name").value;
-    const middleInitial = document.getElementById("middle_initial").value;
-    const lastName = document.getElementById("last_name").value;
+    const firstName = document.getElementById("first-name").value;
+    const middleInitial = document.getElementById("middle-initial").value;
+    const lastName = document.getElementById("last-name").value;
 
     
     // Prompt the user to enter a number between 1 and 125
