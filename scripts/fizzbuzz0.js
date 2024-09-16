@@ -23,8 +23,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         
         if (i % 2 === 0) {
             numberOutput += "Paw's & Pints Pub - ${i} - This number is Even<br>";
-        } 
-        else {
+        } else {
             numberOutput += "Paw's & Pints Pub - ${i} - This number is Odd<br>";
         }
     }
