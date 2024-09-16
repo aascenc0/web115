@@ -9,7 +9,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
 
     
     // Prompt the user to enter a number between 1 and 125
-    let numberInput = parseInt(window.prompt("How high do you want to count ? "));
+    let numberInput = prompt("How high do you want to count ? "));
 
     
     // Validate the number input
@@ -22,9 +22,9 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     for (let i = 1; i <= numberInput; i++) {
         
         if (i % 2 === 0) {
-            numberOutput += "Paw's & Pints Pub - ${i}. - This number is Even<br>";
+            numberOutput += "${i}. - This number is Even<br>";
         } else {
-            numberOutput += "Paw's & Pints Pub - ${i}. - This number is Odd<br>";
+            numberOutput += "${i}. - This number is Odd<br>";
         }
     }
 
