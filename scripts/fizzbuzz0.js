@@ -17,7 +17,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
         numberInput = prompt("Invalid input. Please enter a number between 1 and 125:");
     }
 
-    numberOutput = parseInt(numberOutput)
+    umberOutput = parseInt(numberOutput);
     
     // game logic for the number
     let numberOutput = "";
