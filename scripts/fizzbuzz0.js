@@ -8,7 +8,7 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     const lastName = document.getElementById("last_name").value;
 
     // Create full name
-    let fullName = (firstName) + (middleInitial ? middleInitial + '.') + (lastName).trim();
+    let fullName = (firstName) + (middleInitial ? middleInitial + '.') + (lastName);
 
     
     // Prompt the user to enter a number between 1 and 125
