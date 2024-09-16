@@ -16,7 +16,6 @@ document.getElementById("name-form").addEventListener("submit", function(event) 
     // Prompt the user to enter a number between 1 and 125
     let numberInput = prompt(`How high do you want to count, ${firstName} ?`);
 
-    
     // Validate the number input
     while (numberInput < 1 || numberInput > 125 || isNaN(numberInput)) {
         numberInput = prompt("Invalid input. Please enter a number between 1 and 125:");
