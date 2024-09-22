@@ -18,7 +18,7 @@ document.getElementById("generate-button").addEventListener("click", function() 
         } else if (i % 5 === 0) {
             text += word1; // For multiples of 5
         } else {
-            text += word3; // Default word
+            text += word0; // Default word
         }
 
         output.push(text);
