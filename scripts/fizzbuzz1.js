@@ -4,8 +4,9 @@ document.getElementById("generate-button").addEventListener("click", function() 
 
     const maxNumber = 140;
     const output = [];
-    const word1 = "Cold!";
+    const word1 = "Cold";
     const word2 = "Pints!";
+    const word0 = "Tripple P's";
     
     for (let i = 1; i <= maxNumber; i++) {
         let text = `${i}. `;
@@ -17,7 +18,7 @@ document.getElementById("generate-button").addEventListener("click", function() 
         } else if (i % 5 === 0) {
             text += word1; // For multiples of 5
         } else {
-            text += word1; // Default word
+            text += word3; // Default word
         }
 
         output.push(text);
