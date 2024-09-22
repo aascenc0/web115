@@ -1,4 +1,4 @@
-document.getElementById("generateBtn").addEventListener("click", function() {
+document.getElementById("generate-button").addEventListener("click", function() {
     let resultContainer = document.getElementById("result");
     resultContainer.innerHTML = ""; // Clear previous results
 
