@@ -4,8 +4,8 @@ document.getElementById("generateBtn").addEventListener("click", function() {
 
     const maxNumber = 140;
     const output = [];
-    const word1 = "boo!";
-    const word2 = "EEK!";
+    const word1 = "Cold!";
+    const word2 = "Pints!";
     
     for (let i = 1; i <= maxNumber; i++) {
         let text = `${i}. `;
