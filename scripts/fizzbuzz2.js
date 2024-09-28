@@ -1,3 +1,8 @@
+// Function to check if a number is divisible by a given divisor
+function checkDivision(number, divisor) {
+    return number % divisor === 0;
+}
+
 document.getElementById("generate-button").addEventListener("click", function() {
     let resultContainer = document.getElementById("result");
     resultContainer.innerHTML = ""; // Clear previous results
@@ -8,15 +13,18 @@ document.getElementById("generate-button").addEventListener("click", function() 
     const word2 = "Pints!";
     const word0 = "Tripple P's";
     
-    for (let i = 1; i <= maxNumber; i++) {
-        let text = `${i}. `;
+    const firstDivisor = 3;
+    const secondDivisor = 5;
+    
+    for (let iCounter = 1; iCounter <= maxNumber; iCounter++) {
+        let text = `${iCounter}. `;
         
-        if (i % 3 === 0 && i % 5 === 0) {
-            text += `${word1} ${word2}`; // For multiples of both 3 and 5
-        } else if (i % 3 === 0) {
-            text += word2; // For multiples of 3
-        } else if (i % 5 === 0) {
-            text += word1; // For multiples of 5
+        if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, secondDivisor)) {
+            text += `${word1} ${word2}`; // For multiples of both divisors
+        } else if (checkDivision(iCounter, firstDivisor)) {
+            text += word2; // For multiples of first divisor
+        } else if (checkDivision(iCounter, secondDivisor)) {
+            text += word1; // For multiples of second divisor
         } else {
             text += word0; // Default word
         }
