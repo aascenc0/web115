@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #00BFFF;
-    color: white;
+    color: black;
     padding: 20px;
     text-align: center;
 }
@@ -116,7 +116,7 @@ button {
     border: none;
     border-radius: 5px;
     background-color: #00BFFF;
-    color: white;
+    color: black;
     transition: background-color 0.3s;
 }
 
