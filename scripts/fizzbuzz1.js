@@ -1,3 +1,4 @@
+// Alexander Ascencio, 09.29.2024
 document.getElementById("generate-button").addEventListener("click", function() {
     let resultContainer = document.getElementById("result");
     resultContainer.innerHTML = ""; // Clear previous results
