@@ -1,4 +1,4 @@
-// Alexander Ascencio, 09.29.2024
+// Alexander Ascencio, 09.16.2024
 document.getElementById("generate-button").addEventListener("click", function() {
     let resultContainer = document.getElementById("result");
     resultContainer.innerHTML = ""; // Clear previous results
