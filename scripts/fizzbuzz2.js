@@ -21,9 +21,9 @@ document.getElementById("generate-button").addEventListener("click", function() 
         
         if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, secondDivisor)) {
             text += `${word1} ${word2}`; // For multiples of both divisors
-        } else if (checkDivision(iCounter, firstDivisor)) {
-            text += word2; // For multiples of first divisor
         } else if (checkDivision(iCounter, secondDivisor)) {
+            text += word2; // For multiples of first divisor
+        } else if (checkDivision(iCounter, firstDivisor)) {
             text += word1; // For multiples of second divisor
         } else {
             text += word0; // Default word
