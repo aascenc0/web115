@@ -27,7 +27,7 @@ document.getElementById("generate-button").addEventListener("click", function() 
             text += word2; // For multiples of first divisor
         } else if (checkDivision(iCounter, secondDivisor)) {
             text += word1; // For multiples of second divisor
-        } else if (checkDivision(icounter, thirdDivisor)) {
+        } else if (checkDivision(iCounter, thirdDivisor)) {
             text += word3; // For multiples of third divisor
         } else {
             text += word0; // Default word
