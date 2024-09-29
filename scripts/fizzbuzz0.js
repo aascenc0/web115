@@ -1,3 +1,4 @@
+// Alexander Ascencio, 09.09.2024
 document.addEventListener("DOMContentLoaded", function () {
 document.getElementById("name-form").addEventListener("submit", function(event) {
     event.preventDefault();
