@@ -8,33 +8,30 @@ document.getElementById("generate-button").addEventListener("click", function() 
     resultContainer.innerHTML = ""; // Clear previous results
 
     const maxNumber = 140;
+    
+    // Define the divisors and corresponding words
+    const divisors = [3, 5, 7]; // Add more divisors here
+    const words = ["Cold", "Pints!", "BANG!"]; // Corresponding words for each divisor
+
     const output = [];
-    const word1 = "Cold";
-    const word2 = "Pints!";
-    const word3 = "BANG!";
-    const word0 = "Tripple P's";
-    
-    const firstDivisor = 3;
-    const secondDivisor = 5;
-    const thirdDivisor = 7;
-    
+
     for (let iCounter = 1; iCounter <= maxNumber; iCounter++) {
         let text = `${iCounter}. `;
         
-        if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, secondDivisor) && checkDivision(iCounter, thirdDivisor)) {
-            text += `${word1} ${word2} ${word3}`; // For multiples of all three divisors
-        } else if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, thirdDivisor)) {
-            text += `${word1} ${word3}`; // For multiples of first and third divisors.
-        } else if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, secondDivisor)) {
-            text += `${word1} ${word2}`; // For multiples of first and second divisors.
-        } else if (checkDivision(iCounter, thirdDivisor)) {
-            text += word3; // For multiples of first divisor
-        } else if (checkDivision(iCounter, secondDivisor)) {
-            text += word2; // For multiples of second divisor
-        } else if (checkDivision(iCounter, firstDivisor)) {
-            text += word1; // For multiples of third divisor
+        let matchedWords = [];
+        
+        // Check divisibility for each divisor
+        divisors.forEach((divisor, index) => {
+            if (checkDivision(iCounter, divisor)) {
+                matchedWords.push(words[index]);
+            }
+        });
+
+        // Build the output string based on which words were matched
+        if (matchedWords.length > 0) {
+            text += matchedWords.join(' '); // Join the matched words
         } else {
-            text += word0; // Default word
+            text += "Tripple P's"; // Default word when no divisibility matches
         }
 
         output.push(text);
