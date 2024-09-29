@@ -24,11 +24,11 @@ document.getElementById("generate-button").addEventListener("click", function() 
         if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, secondDivisor) && checkDivision(iCounter, thirdDivisor)) {
             text += `${word1} ${word2} ${word3}`; // For multiples of all three divisors
         } else if (checkDivision(iCounter, firstDivisor)) {
-            text += word2; // For multiples of first divisor
+            text += word3; // For multiples of first divisor
         } else if (checkDivision(iCounter, secondDivisor)) {
-            text += word1; // For multiples of second divisor
+            text += word2; // For multiples of second divisor
         } else if (checkDivision(iCounter, thirdDivisor)) {
-            text += word3; // For multiples of third divisor
+            text += word1; // For multiples of third divisor
         } else {
             text += word0; // Default word
         }
