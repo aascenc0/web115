@@ -1,3 +1,4 @@
+// Alexander Ascencio, 09.29.2024
 // Function to check if a number is divisible by a given divisor
 function checkDivision(number, divisor) {
     return number % divisor === 0;
