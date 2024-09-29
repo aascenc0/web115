@@ -1,3 +1,4 @@
+// Alexander Ascencio, 09.29.2024
 // Function to check if a number is divisible by a given divisor
 function checkDivision(number, divisor) {
     return number % divisor === 0;
@@ -10,7 +11,7 @@ document.getElementById("generate-button").addEventListener("click", function() 
     const maxNumber = 140;
     
     // Define the divisors and corresponding words
-    const divisors = [3, 5, 7]; // Add more divisors here
+    const divisors = [3, 5, 7]; // You can add more divisors here
     const words = ["Cold", "Pints!", "BANG!"]; // Corresponding words for each divisor
 
     const output = [];
@@ -27,11 +28,11 @@ document.getElementById("generate-button").addEventListener("click", function() 
             }
         });
 
-        // Build the output string based on which words were matched
+        // Build the output based on which words were matched
         if (matchedWords.length > 0) {
             text += matchedWords.join(' '); // Join the matched words
         } else {
-            text += "Tripple P's"; // Default word when no divisibility matches
+            text += "Tripple P's"; // Default word
         }
 
         output.push(text);
