@@ -24,9 +24,9 @@ document.getElementById("generate-button").addEventListener("click", function() 
         if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, secondDivisor) && checkDivision(iCounter, thirdDivisor)) {
             text += `${word1} ${word2} ${word3}`; // For multiples of all three divisors
         } else if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, thirdDivisor)) {
-            text += `${word1} ${word3}`; // For multiples of fist and third divisors.
+            text += `${word1} ${word3}`; // For multiples of first and third divisors.
         } else if (checkDivision(iCounter, firstDivisor) && checkDivision(iCounter, secondDivisor)) {
-            text += `${word1} ${word2}`; // For multiples of fist and second divisors.
+            text += `${word1} ${word2}`; // For multiples of first and second divisors.
         } else if (checkDivision(iCounter, thirdDivisor)) {
             text += word3; // For multiples of first divisor
         } else if (checkDivision(iCounter, secondDivisor)) {
