@@ -90,7 +90,7 @@ a {
     font-weight: bold;
     text-align: center;
     padding: 20px;
-    text-decorations: none;
+    text-decoration: none;
     transition: background-color 0.3s; /* Smooth transition for hover */
 }
 
