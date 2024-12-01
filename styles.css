@@ -64,12 +64,11 @@ a {
     text-decoration: none;
 }
 
-/*
 .myul {
     display: inline-block;
     text-align: left;
 }
-*/
+
 nav {
     list-style-type: none;
     margin: 0;
