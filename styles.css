@@ -19,7 +19,7 @@ logo {
     justify-content: center;
 }
 
-logo paw-icon {
+span paw-icon {
     font-size: 200px;
     margin-right: 70px;
 }
