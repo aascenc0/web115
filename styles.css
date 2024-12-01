@@ -50,7 +50,7 @@ main {
     flex-grow: 1;
 }
 
-.main.a {
+main a {
     color: C0C0C0;
 }
 
