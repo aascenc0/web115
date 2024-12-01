@@ -53,6 +53,11 @@ main a {
     color: #37A3C1;
 }
 
+main img {
+    width: 500px;
+    height: 650px;
+}
+
 form {
     margin-bottom: 20px;
 }
