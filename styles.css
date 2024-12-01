@@ -38,8 +38,8 @@ h2 {
 main {
     text-align: center;
     margin: 0 auto;
-    padding: 15px;
-    font-size: 15;
+    padding: 20px;
+    font-size: 15rem;
     flex-grow: 1;
 }
 
