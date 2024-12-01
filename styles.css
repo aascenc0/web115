@@ -23,6 +23,11 @@ span {
     font-size: 100px;
 }
 
+span img {
+    width: 450px;
+    height: 300px;
+}
+
 h1 {
     font-size: 36px;
     color: #000000; /* White text for the title */
