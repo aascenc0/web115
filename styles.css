@@ -128,7 +128,7 @@ button:hover {
     background-color: #89cff0;
 }
 
-output {
+#output {
     margin-top: 20px;
     text-align: left;
     max-height: 400px;
