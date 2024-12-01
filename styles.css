@@ -130,7 +130,7 @@ button:hover {
 
 #output {
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     max-height: 400px;
     overflow-y: auto;
 }
