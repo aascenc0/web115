@@ -43,7 +43,7 @@ main {
     background-color: white; /* White background for the box */
     border: 2px solid #C0C0C0; /* Border color */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 20px rgba(43, 62, 255); /* Shadow for floating effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for floating effect */
     padding: 20px; /* Space inside the box */
     max-width: 600px; /* Maximum width for the box */
     text-align: center; /* Center-align text */
