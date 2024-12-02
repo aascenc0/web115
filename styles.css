@@ -13,7 +13,7 @@ header {
     text-align: center;
 }
 
-header nav {
+header div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,11 +21,11 @@ header nav {
 }
 
  .logo {
-    margin-top: 16px;
+  /*  margin-top: 16px; */
     max-height: 200px;
     max-width: 200px;
-    top: 30px;
-    left: 60px;
+  /*  top: 30px;
+    left: 60px; */
 }
 */
 h1 {
