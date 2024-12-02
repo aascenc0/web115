@@ -13,8 +13,8 @@ header {
     text-align: center;
 }
 
-header span {
-    font-size: 50;
+header img {
+    margin-right: auto;
 }
 
 logo {
