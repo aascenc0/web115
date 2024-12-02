@@ -70,6 +70,11 @@ main span img {
     height: 300px;
 }
 
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
 form {
     margin-bottom: 20px;
 }
