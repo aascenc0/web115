@@ -13,8 +13,7 @@ header {
     text-align: center;
 }
 
-header logo span {
-    justify-content:start;
+header span {
     font-size: 50;
 }
 
