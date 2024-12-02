@@ -13,6 +13,14 @@ header {
     text-align: center;
 }
 
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 4rem;
+}
+
+/*
  .logo {
     margin-top: 16px;
     max-height: 200px;
@@ -21,7 +29,7 @@ header {
     top: 30px;
     left: 60px;
 }
-
+*/
 h1 {
     font-size: 36px;
     color: #000000; /* White text for the title */
