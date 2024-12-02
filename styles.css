@@ -13,14 +13,11 @@ header {
     text-align: center;
 }
 
-header logo {
-    float: left;
+logo {
+  width: 200px;
+  margin-top: 16px;
+  cursor: pointer;
 }
-
-logo img {
-    width: 200px;
-    height: 200px;
-  }
 
 h1 {
     font-size: 36px;
