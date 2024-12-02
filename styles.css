@@ -17,7 +17,7 @@ header {
     margin-top: 16px;
     max-height: 200px;
     max-width: 200px;
-    position: fixed;
+    position: flex;
     top: 30px;
     left: 60px;
 }
@@ -62,7 +62,7 @@ main img {
     height: 650px;
 }
 
-main-logo {
+.main-logo {
     width: 450px;
     height: 300px;
 }
