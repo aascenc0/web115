@@ -15,9 +15,14 @@ header {
 
 .logo {
     margin-top: 16px;
-    position: absolute;
-    left: 30;
-    top: 0;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    width: auto; 
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: contain;
+}
 }
 
 .logo img {
