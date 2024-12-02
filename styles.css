@@ -14,28 +14,16 @@ header {
 }
 
 .logo {
+    margin-top: 16px;
     position: absolute;
-    height: auto;
-    top: 0px;
-    left: 0px;
-    width: auto; 
-    max-height: 200px;
-    max-width: 200px;
-    object-fit:contain;
-}
-
-/*
-.logo {
-    margin-top: 16px;justify-content: center;
+    left: 30;
+    top: 0;
 }
 
 .logo img {
     width: 200px;
     height: 200px;
-    display: flex;
-    justify-content: flex-start;
 }
-*/
 
 h1 {
     font-size: 36px;
