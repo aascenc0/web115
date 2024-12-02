@@ -11,12 +11,11 @@ header {
     color: black;
     padding: 0px;
     text-align: center;
+    display: flex;
 }
 
 .logo img {
-    width: 200px;
-    height: 200px;
-    display: absolute;
+    max-height: 150px;
 }
 
 h1 {
