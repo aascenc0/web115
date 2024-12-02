@@ -15,7 +15,6 @@ header {
 
 .logo {
     margin-top: 16px;
-    cursor: pointer;
     display: flex;
     justify-content: flex-start;
 }
