@@ -13,11 +13,8 @@ header {
     text-align: center;
 }
 
-header logo {
-    align-items: left;
-}
-
-header logo span {
+header span {
+    float: left;
     font-size: 50;
 }
 
