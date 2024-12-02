@@ -17,7 +17,7 @@ header {
     margin-top: 16px;
     max-height: 200px;
     max-width: 200px;
-    position: absolute;
+    position: fixed;
     top: 30px;
     left: 60px;
 }
