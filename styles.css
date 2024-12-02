@@ -14,7 +14,7 @@ header {
 }
 
 header logo {
-    float: left;
+    align-items: left;
 }
 
 header logo span {
