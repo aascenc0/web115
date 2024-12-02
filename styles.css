@@ -84,7 +84,7 @@ img {
 }
 
 a {
-    color: #eafcfc;
+    color: #37A3C1;
     font-size: 15px;
     text-decoration: none;
 }
@@ -150,7 +150,7 @@ button:hover {
 }
 
 footer {
-    background-color: #C0C0C0;
+    background-color: #eafcfc;
     color: black;
     text-align: center;
     padding: 0px;
