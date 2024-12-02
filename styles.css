@@ -14,7 +14,7 @@ header {
 }
 
 header span {
-    float: left;
+    justify-content:start;
     font-size: 50;
 }
 
