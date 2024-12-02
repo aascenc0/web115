@@ -15,10 +15,10 @@ header {
 
  .logo {
     margin-top: 16px;
-    max-height: 185px;
-    max-width: 185px;
+    max-height: 200px;
+    max-width: 200px;
     position: absolute;
-    top: 40px;
+    top: 30px;
     left: 60px;
 }
 
@@ -78,7 +78,6 @@ img {
 h3 span img {
     width: 300px;
     height: 300px;
-    align-items: center;
 }
 
 a {
