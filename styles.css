@@ -15,10 +15,6 @@ header {
 
 .logo {
     margin-top: 16px;
-    height: auto;
-    top: 0px;
-    left: 0px;
-    display: absolute;
 }
 
 .logo img {
