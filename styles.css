@@ -13,8 +13,16 @@ header {
     text-align: center;
 }
 
- logo {
-     justify-content: even-spacing;
+ .logo {
+    margin-top: 16px;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    width: auto; 
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: contain;
+}
      
  }
 
