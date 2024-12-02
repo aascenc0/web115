@@ -22,7 +22,6 @@ header {
     height: 200px;
     display: flex;
     justify-content: flex-start;
-    margin-right: auto;
 }
 
 h1 {
