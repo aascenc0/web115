@@ -14,6 +14,35 @@ header {
 }
 
 .logo {
+    position: absolute;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    width: auto; 
+    max-height: 200px;
+    max-width: 200px;
+    object-fit:contain;
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+    .logo {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .logo {
+        max-height: 200px;
+    }
+}
+
+/*
+.logo {
     margin-top: 16px;justify-content: center;
 }
 
@@ -23,6 +52,7 @@ header {
     display: flex;
     justify-content: flex-start;
 }
+*/
 
 h1 {
     font-size: 36px;
