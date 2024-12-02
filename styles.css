@@ -13,10 +13,11 @@ header {
     text-align: center;
 }
 
-.logo img {
-    max-height: 50px;
-    width: auto;
-}
+ logo {
+     justify-content: even-spacing;
+     
+ }
+
 
 h1 {
     font-size: 36px;
