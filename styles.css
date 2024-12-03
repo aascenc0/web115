@@ -2,8 +2,7 @@ body {
     background-color: #C0C0C0;
     color: #333;
     font-family: Arial, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    position: fixed;
 }
 
 header {
@@ -164,8 +163,5 @@ footer {
     background-color: #C0C0C0;
     color: black;
     text-align: center;
-    padding: 0px;
-    bottom: 0;
-    width: 100%;
     max-width: 1000px;
 }
