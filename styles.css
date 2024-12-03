@@ -78,8 +78,14 @@ ul {
 }
 
 .name-form {
-    position: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+  width: 50%; /* to adjust this value to control the form's width */
 }
 
 img {
@@ -134,7 +140,7 @@ button {
     padding: 10px 20px;
     font-size: 18px;
     border: solid;
-    border-radius: 2px;
+    border-radius: 1px;
     border-color: #133E87;
     background-color: #CBDCEB;
     color: #133E87;
