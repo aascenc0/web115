@@ -139,7 +139,8 @@ button {
     background-color: #CBDCEB;
     color: #133E87;
     transition: background-color 0.3s;
-    right: 10px;
+    display: block;
+    margin: auto;
 }
 
 button:hover {
