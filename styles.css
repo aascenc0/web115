@@ -174,3 +174,7 @@ footer {
     margin-right: auto;
     outline: 1px solid red;
 }
+
+footer p {
+    margin: 0;
+}
