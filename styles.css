@@ -49,8 +49,7 @@ main {
     width: 100%;
     border: solid #006A67 5px;
     padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     font-size: 15px;
 }
 
