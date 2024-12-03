@@ -9,8 +9,10 @@ header {
     background-color: #CBDCEB;
     color: #133E87;
     max-width: 1000px;
+    max-height: 200px;
     margin-left: auto;
     margin-right: auto;
+    outline: 1px solid red;
 }
 
 
@@ -78,7 +80,8 @@ ul {
 }
 
 form {
-    max-width: 200px;
+    text-alight: center;
+    max-width: 300px;
     margin: auto;
     padding: 0;
     outline: 1px solid red;
@@ -163,4 +166,5 @@ footer {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    outline: 1px solid red;
 }
