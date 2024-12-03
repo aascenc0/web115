@@ -134,13 +134,12 @@ nav li a:hover {
 button {
     padding: 10px 20px;
     font-size: 18px;
-    cursor: pointer;
-    text-align: center;
     border: none;
     border-radius: 5px;
     background-color: #CBDCEB;
     color: #133E87;
     transition: background-color 0.3s;
+    right: 10px;
 }
 
 button:hover {
