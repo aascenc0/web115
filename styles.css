@@ -78,7 +78,6 @@ ul {
 }
 
 form {
-    max-width: 620px;
     margin: auto;
     padding: 10px;
     outline: 2px solid red;
