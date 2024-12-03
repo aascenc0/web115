@@ -8,11 +8,6 @@ body {
 header {
     background-color: #CBDCEB;
     color: #133E87;
-    box-sizing: border-box;
-    width: 100%;
-    border: solid #006A67 5px;
-    padding: 5px;
-    text-align: center;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -108,8 +103,12 @@ a {
 
 nav {
     list-style-type: none;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #006A67 5px;
+    padding: 5px;
+    text-align: center;
     margin: 0;
-    padding: 0px;
     overflow: hidden;
     background-color: #F3F3E0;
     text-align: center;
@@ -165,10 +164,6 @@ button:hover {
 footer {
     background-color: #CBDCEB;
     color: #133E87;
-    box-sizing: border-box;
-    width: 100%;
-    border: solid #006A67 5px;
-    padding: 5px;
     text-align: center;
     max-width: 1000px;
     margin-left: auto;
