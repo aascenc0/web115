@@ -78,9 +78,8 @@ ul {
 }
 
 form {
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    position: block;
+    margin: auto;
 }
 
 img {
@@ -153,14 +152,7 @@ button:hover {
     max-height: 400px;
     overflow-y: auto;
 }
-/*
-#result {
-    margin-top: 20px;
-    text-align: left;
-    max-height: 400px;
-    overflow-y: auto;
-}
-*/
+
 footer {
     background-color: #CBDCEB;
     color: #133E87;
