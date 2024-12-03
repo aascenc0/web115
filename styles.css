@@ -1,13 +1,13 @@
 body {
     background-color: #CBDCEB;
-    color: #133E87;
+    color: #333;
     font-family: Arial, sans-serif;
     position: relative;
 }
 
 header {
     background-color: #CBDCEB;
-    color: black;
+    color: #133E87;
     text-align: center;
     max-width: 1000px;
     margin-left: auto;
@@ -53,11 +53,10 @@ main {
     margin-left: auto;
     margin-right: auto;
     font-size: 15px;
-    flex-grow: 1;
 }
 
 main a {
-    color: #FF797C;
+    color: #608BC1;
 }
 
 main img {
@@ -83,6 +82,8 @@ ul {
 
 form {
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
@@ -118,7 +119,7 @@ nav li {
 
 nav li a {
     display: inline-block;
-    color: black;
+    color: #133E87;
     font-weight: bold;
     text-align: center;
     padding: 15px;
@@ -127,7 +128,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #F3F3E0;
+    background-color: #CBDCEB;
 }
 
 button {
@@ -137,8 +138,10 @@ button {
     border: none;
     border-radius: 5px;
     background-color: #CBDCEB;
-    color: black;
+    color: #133E87;
     transition: background-color 0.3s;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button:hover {
@@ -161,7 +164,7 @@ button:hover {
 
 footer {
     background-color: #CBDCEB;
-    color: black;
+    color: #133E87;
     text-align: center;
     max-width: 1000px;
     margin-left: auto;
