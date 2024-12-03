@@ -78,9 +78,10 @@ ul {
 }
 
 form {
+    max-width: 300px;
     margin: auto;
-    padding: 10px;
-    outline: 2px solid red;
+    padding: 0;
+    outline: 1px solid red;
 }
 
 img {
