@@ -144,6 +144,7 @@ button {
     background-color: #CBDCEB;
     color: #133E87;
     transition: background-color 0.3s;
+    cursor: pointer;
     display: block;
     margin: auto;
 }
