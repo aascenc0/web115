@@ -77,15 +77,11 @@ ul {
     text-align: left;
 }
 
-.name-form {
+form {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
-
-form {
-  width: 50%; /* to adjust this value to control the form's width */
 }
 
 img {
