@@ -59,16 +59,16 @@ main a {
 }
 
 main img {
-    width: 550px;
-    height: 900px;
+    width: 500px;
+    height: 650px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 main figure img {
-    width: 450px;
-    height: 300px;
+    width: 950px;
+    height: 550px;
     display: block;
     margin-left: auto;
     margin-right: auto;
