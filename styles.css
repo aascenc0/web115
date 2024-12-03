@@ -3,13 +3,14 @@ body {
     color: #133E87;
     font-family: Arial, sans-serif;
     position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 header {
     background-color: #CBDCEB;
     color: #133E87;
     max-width: 1000px;
-    max-height: 200px;
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid red;
