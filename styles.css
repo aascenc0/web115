@@ -1,12 +1,12 @@
 body {
-    background-color: #DAF7A6;
+    background-color: #797CFF;
     color: #333;
     font-family: Arial, sans-serif;
     position: relative;
 }
 
 header {
-    background-color: #A6F7C3;
+    background-color: #FF79BF;
     color: black;
     text-align: center;
     max-width: 1000px;
@@ -44,10 +44,10 @@ h3 {
 }
 
 main {
-    background-color: white; /* White background for the box */
-    border: 2px solid #B1F7A6; /* Border color */
+    background-color: #FFB979; /* White background for the box */
+    border: 2px solid #B979FF; /* Border color */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 20px rgb(177, 247, 166); /* Shadow for floating effect */
+    box-shadow: 0 4px 20px rgb(252, 121, 255); /* Shadow for floating effect */
     padding: 20px; /* Space inside the box */
     max-width: 600px; /* Maximum width for the box */
     margin-left: auto;
@@ -57,7 +57,7 @@ main {
 }
 
 main a {
-    color: #28580E;
+    color: #FF797C;
 }
 
 main img {
@@ -98,7 +98,7 @@ img {
 }
 
 a {
-    color: #37A3C1;
+    color: #FF797C;
     font-size: 15px;
     text-decoration: none;
 }
@@ -127,7 +127,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #A6B1F7;
+    background-color: #797CFF;
 }
 
 button {
@@ -136,13 +136,13 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #A6F7EB;
+    background-color: #FC79FF;
     color: black;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: ##A6F7C3;
+    background-color: #B979FF;
 }
 
 #output {
@@ -160,7 +160,7 @@ button:hover {
 }
 
 footer {
-    background-color: #A6F7C3;
+    background-color: #FF79BF;
     color: black;
     text-align: center;
     max-width: 1000px;
