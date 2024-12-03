@@ -43,7 +43,7 @@ h3 {
 
 main {
     background-color: #F3F3E0;
-    max-width: 600px;
+    max-width: 800px;
     box-sizing: border-box;
     width: 100%;
     border: solid #006A67 10px;
@@ -138,8 +138,6 @@ button {
     background-color: #CBDCEB;
     color: #133E87;
     transition: background-color 0.3s;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 button:hover {
@@ -152,14 +150,14 @@ button:hover {
     max-height: 400px;
     overflow-y: auto;
 }
-
+/*
 #result {
     margin-top: 20px;
     text-align: left;
     max-height: 400px;
     overflow-y: auto;
 }
-
+*/
 footer {
     background-color: #CBDCEB;
     color: #133E87;
