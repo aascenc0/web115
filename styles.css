@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #48D3E3;
+    background-color: ##97EE69;
     color: black;
     text-align: center;
     max-width: 1000px;
@@ -45,9 +45,9 @@ h3 {
 
 main {
     background-color: white; /* White background for the box */
-    border: 2px solid #FF5151; /* Border color */
+    border: 2px solid #51E700; /* Border color */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 20px rgb(255, 81, 81; /* Shadow for floating effect */
+    box-shadow: 0 4px 20px rgb(81, 231, 0); /* Shadow for floating effect */
     padding: 20px; /* Space inside the box */
     max-width: 600px; /* Maximum width for the box */
     margin-left: auto;
@@ -57,7 +57,7 @@ main {
 }
 
 main a {
-    color: #37A3C1;
+    color: #28580E;
 }
 
 main img {
@@ -160,7 +160,7 @@ button:hover {
 }
 
 footer {
-    background-color: #C0C0C0;
+    background-color: ##97EE69;
     color: black;
     text-align: center;
     max-width: 1000px;
