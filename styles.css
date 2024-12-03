@@ -3,6 +3,8 @@ body {
     color: #133E87;
     font-family: Arial, sans-serif;
     position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 header {
