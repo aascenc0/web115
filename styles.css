@@ -41,7 +41,7 @@ h3 {
 }
 
 main {
-    background-color: #F3F3E0;
+    background-color: #CBDCEB;
     max-width: 1000px;
     box-sizing: border-box;
     width: 100%;
@@ -123,6 +123,7 @@ nav li a {
     font-weight: bold;
     text-align: center;
     padding: 15px;
+    margin: 0;
     text-decoration: none;
     transition: background-color 0.3s; /* Smooth transition for hover */
 }
