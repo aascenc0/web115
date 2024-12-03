@@ -28,14 +28,17 @@ h1 {
     font-size: 36px;
     color: #000000; /* White text for the title */
     font-family: Arial, sans-serif; /* Fun font for the dog bar */
+    text-align: center;
 }
 
 h2 {
     padding: 20;
+    text-align: center;
 }
 
 h3 {
     padding: 20;
+    text-align: center;
 }
 
 main {
@@ -92,7 +95,7 @@ a {
 nav {
     list-style-type: none;
     margin: 0;
-    padding: 15;
+    padding: 15px;
     overflow: hidden;
     background-color: #eafcfc;
     text-align: center;
