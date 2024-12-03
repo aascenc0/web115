@@ -3,7 +3,6 @@ body {
     color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
-    text-align: center;
 }
 
 header {
@@ -29,7 +28,6 @@ h1 {
     font-size: 36px;
     color: #000000; /* White text for the title */
     font-family: Arial, sans-serif; /* Fun font for the dog bar */
-    text-align: center;
 }
 
 h2 {
@@ -37,7 +35,6 @@ h2 {
 }
 
 h3 {
-    text-align: center;
     padding: 20;
 }
 
@@ -95,9 +92,10 @@ a {
 nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 15;
     overflow: hidden;
     background-color: #eafcfc;
+    text-align: center;
 }
 
 nav li {
