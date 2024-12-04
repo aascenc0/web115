@@ -46,7 +46,7 @@ h3 {
 main {
     background-color: #CBDCEB;
     max-width: 1000px;
-    height: 90vh;
+    height: 100%
     box-sizing: border-box;
     width: 100%;
     border: solid #006A67 5px;
