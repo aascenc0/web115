@@ -97,8 +97,8 @@ form {
     padding: 10px;
 }
 
-reset-button {
-    padding: 5px;
+#reset-button {
+    margin-top: 5px;
 }
 
 img {
