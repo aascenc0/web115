@@ -97,6 +97,10 @@ form {
     padding: 10px;
 }
 
+reset-button {
+    padding: 5px;
+}
+
 img {
     padding: 15px;
 }
