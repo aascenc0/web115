@@ -58,7 +58,7 @@ main {
 }
 
 main a {
-    color: #3338FC;
+    color: #006A67;
 }
 
 main img {
@@ -70,8 +70,8 @@ main img {
 }
 
 main figure img {
-    width: 700px;
-    height: 394px;
+    width: 786px;
+    height: 454px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -84,12 +84,29 @@ ul {
 }
 
 form {
-    margin: 0 177px 357px 357px;
-    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#setup, #names, #default, #total-list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
 img {
     padding: 15px;
+}
+
+.main-logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cool-dog {
@@ -101,17 +118,8 @@ img {
     margin-top: 50px;
 }
 
-
-.main-logo {
-    width: 300px;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 a {
-    color: #3338FC;
+    color: #006A67;
     font-size: 15px;
     text-decoration: none;
 }
@@ -125,6 +133,10 @@ nav {
     text-align: center;
     overflow: hidden;
     background-color: #F3F3E0;
+}
+
+nav ul {
+    padding: 0;
 }
 
 nav li {
